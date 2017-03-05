@@ -33,13 +33,13 @@ body {
 
 .bio {
     float:right;
-    background-color: pink;
+
 
 }
 
 .menu {
     float: left;
-    background-color: lightblue;
+
 }
 
 #intro{
@@ -52,11 +52,16 @@ body {
 #name{
     font-size: 7em;
     font-weight: 700;
+    margin-left: -130px;
+    margin-right: -130px;
 }
 
 #greeting{
-    font-size: 5em;
-    font
+    font-size: 3.5em;
+    margin-top: 60px;
+    margin-left: -130px;
+    margin-right: -130px;
+
 }
 
 .bio {
@@ -64,7 +69,7 @@ body {
 }
 
 .nav {
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 .navbar {
@@ -78,10 +83,15 @@ body {
 
 .navbar ul {
   text-align: center;
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
 .navbar li {
   display: inline-block;
+  text-align: center;
 }
 
 .navbar a {
@@ -90,17 +100,6 @@ body {
   display: inline-block;
 }
 
-ul {
-    list-style-type: none;ss
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-
-li {
-    text-align: center;
-
-}
 
 li a {
     display: block;
