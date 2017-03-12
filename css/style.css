@@ -51,12 +51,18 @@
   /*display: inline-block;*/
 }
 
-.logo img{
+/*.logo img{
     float:right;
     height: 450px;
     margin-right: 250px;
 
-    }
+    }*/
+
+#logo{
+    position: relative;
+    background: url(images/logo.png);
+    background-size: cover;
+}
 
 
 /*------------------------------------------------------------------------------*/
