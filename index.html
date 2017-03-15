@@ -8,13 +8,13 @@
 
     </head>
     <body>
-        <div>
+        <div class = 'container-fluid'>
 
 
         <div class = "nav nav-pills" >
                 <ul>
                     <div class = "menu">
-                        <li class = active><a href="#">Amos Gichero</a></li>
+                        <li class = active><a href="#"></a></li>
                         <li><a href="#">About me</a></li>
                         <li><a href="#">Projects</a></li>
                         <li><a href="#">Contacts</a></li>
@@ -23,19 +23,56 @@
 
         </div>
 
-        <div id ='logo'></div>
-
-
-            <!-- <img  class = "logo" src = "images/logo.png"/> -->
-
+        <div>
+            <!-- <img id = 'logo' src='images/logo.png'/> -->
+            <div id = 'logo'>kjgjglglg</div>
 
         </div>
 
 
+        <div id = 'aboutMe'>
+            <h2>About Me</h2>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+            </p>
+
+        </div>
+
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>jQuery</li>
+                <li>Javascript</li>
+                <li>Java</li>
+                <li>ReactJs</li>
+                <li>Redux</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Projects</h2>
+        </div>
+        <div>
+            <h2>Contact Me</h2>
+        </div>
+
+    </div>
 
 
 
         <script src = "js/jquery-3.1.1.min.js"></script>
         <script src = "js/bootstrap.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(){
+                Typed.new(".active", {
+                    strings: ["Welcome to my portfolio", "My name is:", "Amos Gichero"],
+                    typeSpeed: 0
+                });
+            });
+        </script>
     </body>
 </html>
