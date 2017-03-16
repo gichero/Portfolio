@@ -32,7 +32,8 @@
 .active{
     float: left;
     font-weight: bold;
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: red;
 }
 
 .nav ul {
@@ -46,7 +47,7 @@
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    color: black;
+    /*color: black;*/
 }
 
 .nav a {
@@ -68,7 +69,11 @@
     background-size: 700px;
     background-position: center;
     font-size: 300px;
+}
 
+#logo p{
+    visibility: hidden;
+}
 
 
 /*------------------------------------------------------------------------------*/
