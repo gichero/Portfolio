@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 *{
     box-sizing: border-box;
@@ -5,6 +6,10 @@
 
 .clearfix {
     clear: both;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------------------------------navigation------------------------------------*/
@@ -23,17 +28,18 @@
     width: 100%;
     height: 65px;
     margin-top: 2px;
-    border-radius: 3px
-
-    /*font-size: 1.8rem;*/
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1.8rem;
 
 }
 
 .active{
     float: left;
+    font: flottenheimer;
     font-weight: bold;
     font-size: 1.5em;
-    color: red;
+    color: #C74A4F;
 }
 
 .nav ul {
@@ -47,28 +53,25 @@
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    /*color: black;*/
 }
 
 .nav a {
-  /*position: relative;*/
-  padding: 1rem;
-  /*display: inline-block;*/
+  padding: 0.3rem;
 }
 
-/*.logo img{
-    float:right;
-    height: 450px;
-    margin-right: 250px;
+#list {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 
-    }*/
+}
 
 #logo{
-    background-image: url('../images/logo.png');
+    background-image: url('../images/logo4.png');
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: center;
-    font-size: 300px;
+    font-size: 350px;
 }
 
 #logo p{
@@ -77,3 +80,8 @@
 
 
 /*------------------------------------------------------------------------------*/
+
+#aboutMe {
+    background: #FAFAFB;
+
+}
