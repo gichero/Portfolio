@@ -1,65 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Sacramento');
 
-/**{
-    box-sizing: border-box;
-}
+/*
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Homemade Apple', cursive;*/
 
-.clearfix {
-    clear: both;
-}
 
-body{
-    font-family: 'Roboto', sans-serif;
-}*/
-
-/*----------------------------------navigation------------------------------------*/
-
-/*.nav a {
-  text-decoration: none;
-  color: #2B2D42;
-}
-
-.nav {
-    background: #D6EBF3;
-    left: 0;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 75px;
-    text-decoration: none;
-    font-size: 1.8rem;
-}
-
-.active{
-    float: left;
-    font-family: 'Reenie Beanie', cursive;
-    font-weight: bold;
-    font-size: 2.5em;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    color: #C74A4F;
-}
-
-.nav li {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-    display:inline-block;
-    text-transform: uppercase;
-}
-
-.list {
-    float: right;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0;
-    margin: 0;
-}*/
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -74,14 +21,15 @@ body{
 
 html, body {
   height: 100%;
+  background: ;
 }
 
 body {
   font: 1em 'Roboto', sans-serif;
   color: #555;
   background-color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /*-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;*/
 }
 
 ul {
@@ -91,12 +39,13 @@ ul {
 }
 
 .active {
-  padding: 5px;
+  padding: 0;
   text-align: center;
   font-family: 'Reenie Beanie', cursive;
   font-weight: bold;
   font-size: 3.5em;
   color: #C74A4F;
+  margin: 0;
 }
 
 nav {
@@ -107,8 +56,8 @@ nav {
 
 ul a {
   display: block;
-  padding: 15px;
-  font-size: 1em;
+  /*padding: 15px;*/
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   color: black;
@@ -117,6 +66,7 @@ ul a {
 
 ul a:hover {
   background: #eee;
+  text-decoration: none;
 }
 
 nav li {
@@ -125,77 +75,32 @@ nav li {
 }
 
 #logo{
-    background-image: url('../images/apple3.jpg');
-    height: 400px;
+    background-image: url('../images/logocopy.jpg');
+    height: 500px;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-position: center;
-    font-size: 350px;
 }
 
 #logo p{
-    visibility: hidden;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    color: white;
 }
 
-
-/*---------------------------------------------------------
-  M E D I A   Q U E R I E S
------------------------------------------------------------ */
-
-@media only screen and (max-width: 480px) {
-
-  .hamburger {
-    cursor: pointer;
-    padding: 15px;
-    display: block;
-  }
-
-  .line {
-    border-bottom: 4px solid #bbb;
-    width: 35px;
-    margin-bottom: 6px;
-  }
-
-  .line:last-child {
-    margin-bottom: 0;
-  }
-
-  /* Our styles here */
-
-}
-
-
-
-/*#logo{
-    background-image: url('../images/apple3.jpg');
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    font-size: 350px;
-}
-
-#logo p{
-    visibility: hidden;
-}
-
-.menu {
+/*.menu {
      width: 100%;
      display: flex;
      align-items: center;
      float: right;
      padding: 5px;
- }
+ }*/
 
-
-/*------------------------------------------------------------------------------*/
-/*.container{
-    border: solid black 5px;
-    border-radius: 3px;
-
-}
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
 
 .img {
     height: 6vw;
@@ -205,4 +110,26 @@ nav li {
 .contact{
     height: 3vw;
     weight: 3vw;
-}*/
+}
+
+@media only screen and (max-width: 580px) {
+
+  .hamburger {
+    cursor: pointer;
+    padding: 15px;
+    display: block;
+    
+
+  }
+
+  .line {
+    border-bottom: 4px solid #C74A4F;;
+    width: 35px;
+    margin-bottom: 6px;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+}
