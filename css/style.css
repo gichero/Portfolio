@@ -27,9 +27,7 @@ html, body {
 body {
   font: 1em 'Roboto', sans-serif;
   color: #555;
-  background-color: #fff;
-  /*-webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;*/
+  background-color: #303030;
 }
 
 ul {
@@ -48,25 +46,19 @@ ul {
   margin: 0;
 }
 
-nav {
-  /*border-top: 1px solid #ddd;*/
-  /*border-bottom: 2px solid #ddd;*/
-  /*background-color: #D6EBF3;*/
-}
-
 ul a {
   display: block;
-  /*padding: 15px;*/
+  padding: 15px
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
-  color: black;
+  color: #303030;
   text-decoration: none;
 }
 
 ul a:hover {
-  background: #eee;
   text-decoration: none;
+  color: #C74A4F;
 }
 
 nav li {
@@ -115,15 +107,14 @@ nav li {
 @media only screen and (max-width: 580px) {
 
   .hamburger {
+    margin-left: 42.5%; 
     cursor: pointer;
     padding: 15px;
     display: block;
-    
-
   }
 
   .line {
-    border-bottom: 4px solid #C74A4F;;
+    border-bottom: 4px solid #C74A4F;
     width: 35px;
     margin-bottom: 6px;
   }
@@ -132,4 +123,18 @@ nav li {
     margin-bottom: 0;
   }
 
+  nav li {
+      width:100%;
+  }
+
+  .menu {
+      display: none;
+      overflow: hidden;
+  }
+  .display{
+      display: block;
+  }
+  .open{
+      height: 295px;
+  }
 }
