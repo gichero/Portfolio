@@ -111,6 +111,8 @@ nav li {
     cursor: pointer;
     padding: 15px;
     display: block;
+    -webkit-animation-duration:10s;
+    -webkit-animation-iteration-count: infinite;
   }
 
   .line {
