@@ -74,8 +74,8 @@ nav li {
     background-position: center;
 }
 
-#logo p{
-    font-size: 20px;
+.intro{
+    font-size: 15px;
     text-align: center;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: bold;
@@ -107,7 +107,7 @@ nav li {
 @media only screen and (max-width: 580px) {
 
   .hamburger {
-    margin-left: 42.5%; 
+    margin-left: 42.5%;
     cursor: pointer;
     padding: 15px;
     display: block;
