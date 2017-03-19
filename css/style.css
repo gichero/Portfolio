@@ -61,7 +61,7 @@ ul a:hover {
 
 nav li {
     float: right;
-  width: 33%;
+    width: 33%;
 }
 
 #logo{
@@ -83,47 +83,30 @@ nav li {
     color: white;
 }
 
-.container{
-    margin-top: 15px;
-    margin-bottom: 100px;
-}
-
 .row{
-    margin-top: 50px;
     max-width: : 1000px;
-
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
-
-/*.menu {
-     width: 100%;
-     display: flex;
-     align-items: center;
-     float: right;
-     padding: 5px;
- }*/
-
-/*---------------------------------------------------------
-  M E D I A   Q U E R I E S
------------------------------------------------------------ */
-
-/*.img {
-    height: 6vw;
-    weight: 6vw;
-}*/
 
 .contact{
     text-align: center;
-
 }
 
-/*.project{
-    height: 20vw;
-}*/
+.img{
+    padding: 25px;
+}
 
 .connect{
     margin-top: 20px;
     padding: 10px;
 }
+
+/*---------------------------------------------------------
+  M E D I A   Q U E R I E S
+----------------------------------------------------------- */
 
 @media only screen and (max-width: 580px) {
 
@@ -154,10 +137,16 @@ nav li {
       display: none;
       overflow: hidden;
   }
+
   .display{
       display: block;
   }
+
   .open{
       height: 295px;
+  }
+
+  .img{
+      padding: 5px;
   }
 }
