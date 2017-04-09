@@ -64,7 +64,7 @@ nav li {
     width: 33%;
 }
 
-#logo{
+.logo{
     background-image: url('../images/logocopy.jpg');
     height: 500px;
     width: 100%;
@@ -83,16 +83,42 @@ nav li {
     color: white;
 }
 
-.row{
-    max-width: : 1000px;
-    padding-left: 70px;
-    padding-right: 70px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.about{
+    max-width: 100%;
+    margin: auto;
+    padding: 80px 80px 25px;
+}
+
+.profile{
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
+}
+
+.skills{
+    max-width: 100%;
+    margin:auto;
+    padding: 80px 80px 25px;
+}
+
+.projects{
+    width: 100%;
+    margin-left: 100px;
+    padding: 80px 80px 25px;
+}
+
+.contact-wrapper{
+    width: 100%;
+    background-color: #f5f7fa;
 }
 
 .contact{
+    height: 400px;
     text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 50px 50px 25px;
+
 }
 
 .img{
@@ -103,6 +129,8 @@ nav li {
     margin-top: 20px;
     padding: 10px;
 }
+
+
 
 /*---------------------------------------------------------
   M E D I A   Q U E R I E S
