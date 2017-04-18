@@ -1,6 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(){
-    Typed.new(".active", {
-        strings: ["Amos Gichero"],
-        typeSpeed: 0
-    });
-});
+// document.addEventListener("DOMContentLoaded", function(){
+//     Typed.new(".active", {
+//         strings: ["Amos Gichero"],
+//         typeSpeed: 0
+//     });
+// });
