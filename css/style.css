@@ -29,30 +29,36 @@ body {
 }
 
 .menu {
-
+    position:fixed;
+  height: 10vh;
   list-style: none;
-  max-width: 800px;
+  width: 100%;
   margin: 0 auto;
+  border: 2px solid red;
 }
 
-.active {
-  padding: 0;
+.name_title {
+  float: left;
   text-align: center;
+  padding-bottom: 25px;
   font-family: 'Reenie Beanie', cursive;
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 3em;
   color: #C74A4F;
-  margin: 0;
+
 }
 
+
 ul a {
-      display: block;
-      padding: 15px;
+      /*display: block;*/
+      padding: 0;
       font-size: 1.2em;
       font-weight: bold;
       text-align: center;
       color: #383838;
       text-decoration: none;
+      float: right;
+
 }
 
 ul a:hover {
@@ -62,7 +68,12 @@ ul a:hover {
 
 .nav li {
     float: right;
-    width: 33%;
+    list-style: none;
+    padding: 25px 2vw;
+}
+
+.menu li:first-child{
+    padding-right: 0 !important;
 }
 
 .logo{
@@ -76,12 +87,12 @@ ul a:hover {
 .intro{
     font-size: 20px;
     z-index: 100;
-    position: absolute;
     bottom: 300px;
     left: 50px;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: bold;
     color: white;
+    position: relative;
 }
 
 .about{
