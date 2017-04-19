@@ -133,14 +133,14 @@ ul a:hover {
 
 .projects{
     width: 100%;
-    padding-left: 100px;
-    padding-right: 75px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 40px;
     padding-bottom: 25px;
 }
 
 .class_project{
-    padding:15px;
+    padding:10px;
 }
 
 .contact-wrapper{
@@ -162,6 +162,12 @@ ul a:hover {
 
 .imgskills{
     padding: 10px;
+
+}
+
+.imgskills_padding{
+    padding: 0px;
+
 }
 
 .connect{
@@ -202,8 +208,10 @@ ul a:hover {
   }
 
   .menu {
+      height: 0;
       display: none;
       overflow: hidden;
+      transition: height 0.3s linear;
   }
 
   .display{
@@ -216,5 +224,9 @@ ul a:hover {
 
   .img{
       padding: 5px;
+  }
+  .slide-down{
+      height:275px;
+
   }
 }
