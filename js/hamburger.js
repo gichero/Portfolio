@@ -1,13 +1,6 @@
-// $(document).ready(function(){
-//     $('.hamburger').on('click', function(){
-//         $('.menu').addClass("open");
-//         //$('.menu').toggleClass("display");
-//     });
-// })
-
-$('.hamburger').on('click', function(e) {
-  // Prevent link from jumping to the top of the page
-  e.preventDefault();
-  // If menu is already showing, slide it up. Otherwise, slide it down.
-  $('.menu').toggleClass('slide-down');
-});
+$(document).ready(function(){
+    $('.hamburger').on('click', function(){
+        //$('.menu').addClass("open");
+        $('.menu').toggleClass("display");
+    });
+})

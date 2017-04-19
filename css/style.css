@@ -181,7 +181,7 @@ ul a:hover {
   M E D I A   Q U E R I E S
 ----------------------------------------------------------- */
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 480px) {
 
   .hamburger {
 
@@ -222,11 +222,20 @@ ul a:hover {
       height: 295px;
   }
 
-  .img{
-      padding: 5px;
-  }
   .slide-down{
       height:275px;
 
   }
+
+  .img{
+      padding: 5px;
+  }
+  .imgskills, .imgskills_padding{
+      padding: 0;
+  }
+
+  .class_project{
+      padding:0px;
+  }
+
 }
