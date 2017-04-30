@@ -16,11 +16,11 @@
 
   <div class = "nav">
 
-    <div href="#" class="hamburger animated pulse">
+    <!-- <div href="#" class="hamburger animated pulse">
       <div class="line"> </div>
       <div class="line"> </div>
       <div class="line"> </div>
-    </div>
+    </div> -->
 
     <div class = "name_title">
     <p >Amos Gichero</p>
@@ -46,7 +46,7 @@
 <!-- about me -->
 
         <div class = "row about" id = "about">
-            <div class = 'col-md-12'>
+            <div >
             <h2>About Me</h2>
             <p class = "profile">
                 I am a fullstack developer living in Atlanta, Georgia. I am a former long haul truck driver who has always been fascinated by technology and the opportunities it presents. Three years years ago, I quit my truck driving job and enrolled in college. I completed an associate degree in computer programming in December 2016, while working full time as as an elutriation operator at Shaw Industries. I learned how to program in java using J2EE platform and MySql database to build web-based applications. </p>
@@ -58,9 +58,9 @@
 
 <!-- skills -->
 
-        <div class = "row skills">
+        <div class = "skills">
 
-            <div class = "col-md-12">
+            <div class = "skill">
                 <img class = "imgskills" src = "images/bootstrap.png"/>
                 <img class = "imgskills" src = "images/css3.png"/>
                 <img class = "imgskills_padding" src = "images/postgresql.png"/>
@@ -77,27 +77,51 @@
 
 <!-- projects -->
 
-        <div class = "row projects cf"  id = "projects">
-            <h2 class = "projects_title">Projects</h2>
+        <div class = "projects" id= "projects">
+            <div class = "projects_title"><h2>Projects</h2></div>
 
-            <div class = "col-md-4 tic_tac_toe">
-                <img class = "class_project" src = "images/tic-tac-toe.png"/>
+            <div class = "project tic_tac_toe">
+                <!-- <img class = "class_project" src = "images/tic-tac-toe.png"/> -->
+                <div id= "project1" class="project-image"></div>
+                <div class = "project-description">
+                    <p>HTML, CSS, jQuery, JavaScript</p>
+                    <a href="github" target="_blank">
+                        <button>Github</button>
+                    </a>
+                </div>
             </div>
-            <div class = "col-md-4 blackjack">
-                <a href = "https://github.com/gichero/blackjack-game" target="_blank"><img class = "class_project" src = "images/blackjack.png"/></a>
+
+            <div class = "project blackjack">
+                <div id= "project2" class="project-image"></div>
+                <div class = "project-description">
+                    <p>HTML, CSS, jQuery, JavaScript</p>
+                    <a href="github" target="_blank">
+                        <button>Github</button>
+                    </a>
+                </div>
             </div>
-            <div class = "col-md-4 smarta">
-                <a href = "http://smarta.amosgichero.com/" target = "_blank"><img class = "class_project" src = "images/smarta.png"/></a>
-                <a href = "https://github.com/gichero/smarta" target="_blank" ><button class = "git" >Git Hub</button></a>
+
+            <div class = "project smarta">
+                <a href = "http://smarta.amosgichero.com/" target = "_blank">
+                    <div id= "project3" class="project-image"></div>
+                </a>
+                <div class = "project-description">
+                    <p>Node.js, Express, PostgreSQL</p>
+                    <a href = "http://smarta.amosgichero.com/" target = "_blank">
+                        <button>Live Site</button>
+                    </a>
+                    <a href="github" target="_blank">
+                        <button>Github</button>
+                    </a>
+                </div>
             </div>
-        </div>
 
 
 <!-- contacts -->
 
-        <div class = "contact-wrapper">
+        <div class = "contact-wrapper" id = "contact">
 
-            <div class = "contact" id = "contact">
+            <div class = "contact" >
             <h2>Contact</h2>
             <p class = "profile">I look forward to hear from potential employers. I am currently looking for opportunities in Atlanta. I can be reached by email or linkedin. My GitHub account is available, where my work can be viewed. My resume is also available for download.</p>
             <div class = "contact-buttons">
