@@ -55,7 +55,7 @@ body {
 ul a {
   display: block;
   padding-right: 10px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 500;
   text-align: center;
   color: #282828;
@@ -90,16 +90,20 @@ ul a:hover {
 }
 
 .intro{
-    font-size: 15px;
+    font-size: 25px;
     font-family: 'Nothing You Could Do', cursive;
-    font-weight: bold;
+    font-weight:300;
     color: #C74A4F;
     z-index: 0;
     position: absolute;
-    bottom: 50px;
-    left: 100px;
-
+    bottom: 300px;
+    left: 70px;
 }
+
+.greeting{
+    font-size: 15px;
+}
+
 .about, .projects, .contact{
     color: #282828;
 }
@@ -151,8 +155,8 @@ ul a:hover {
     display: inline-block;
     height: 375px;
     margin: 15px;
-    border-radius: 10px;
-    border: 1px solid black;
+    /*border-radius: 10px;
+    border: 1px solid black;*/
 }
 
 
