@@ -24,7 +24,6 @@ body {
   color: #383838;
 }
 
-
 .nav{
     position: fixed;
     height: 10vh;
@@ -51,7 +50,6 @@ body {
 
 }
 
-
 ul a {
   display: block;
   padding-right: 10px;
@@ -61,7 +59,6 @@ ul a {
   color: #282828;
   text-decoration: none;
   float: right;
-
 }
 
 ul a:hover {
@@ -76,7 +73,7 @@ ul a:hover {
 }
 
 .menu li:first-child{
-    padding-right: 0 !important; /*important overrides media queries*/
+    padding-right: 100 !important; /*important overrides media queries*/
 }
 
 .logo{
@@ -92,7 +89,7 @@ ul a:hover {
 .intro{
     font-size: 25px;
     font-family: 'Nothing You Could Do', cursive;
-    font-weight:300;
+    font-weight: bold;
     color: #C74A4F;
     z-index: 0;
     position: absolute;
@@ -114,6 +111,7 @@ ul a:hover {
     padding-top: 20px;
     padding-left: 100px;
     padding-right: 100px;
+    text-align: center;
 }
 
 .profile{
@@ -227,12 +225,10 @@ ul a:hover {
 
 .imgskills{
     padding: 10px;
-
 }
 
 .imgskills_padding{
     padding: 0px;
-
 }
 
 .connect{
