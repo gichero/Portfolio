@@ -73,7 +73,7 @@ ul a:hover {
 }
 
 .menu li:first-child{
-    padding-right: 100 !important; /*important overrides media queries*/
+    padding-right: 100;
 }
 
 .logo{
@@ -87,7 +87,7 @@ ul a:hover {
 }
 
 .intro{
-    font-size: 25px;
+    font-size: 2.5em;
     font-family: 'Nothing You Could Do', cursive;
     font-weight: bold;
     color: #C74A4F;
