@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tamma');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
 @import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Sacramento');
@@ -78,7 +79,7 @@ ul a:hover {
 .logo{
     position: relative;
     background-image: url('../images/logocopy.jpg');
-    height: 500px;
+    height: 95vh;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -86,18 +87,21 @@ ul a:hover {
 }
 
 .intro{
-    font-size: 2.5em;
-    font-family: 'Nothing You Could Do', cursive;
+    font-size: 4.5em;
+    font-family: 'Baloo Tamma', cursive;
+    /*font-family: 'Nothing You Could Do', cursive;*/
     font-weight: bold;
-    color: #C74A4F;
-    z-index: 0;
+    color: white;
+    /*color: #C74A4F;*/
+    /*z-index: 0;*/
     position: absolute;
-    bottom: 300px;
-    left: 70px;
+    bottom: 37vh;
+    left: 35vw;
 }
 
 .greeting{
-    font-size: 15px;
+    text-align: center;
+    font-size: 0.4em;
 }
 
 .about, .projects, .contact{
@@ -106,10 +110,9 @@ ul a:hover {
 
 .about{
     max-width: 100%;
-    margin: auto;
-    padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin-top: 7vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
     text-align: center;
 }
 
@@ -123,17 +126,18 @@ ul a:hover {
 .skills{
     display: inline-block;
     width: 100%;
-    margin:auto;
+    margin-top: 7vh;
     padding-left: 85px;
     padding-right: 75px;
 
 }
 
+
 /*------------------------------Projects Section-----------------------------*/
 
 
 .projects_title{
-    padding-left: 22px;
+    padding-bottom: 3vh;
 }
 
 /*.tic_tac_toe{
@@ -144,7 +148,7 @@ ul a:hover {
     clear: left;
     text-align: center;
     color: black;
-    margin-top: 50px;
+    margin-top: 7vw;
 }
 
 .projects .project{
@@ -213,8 +217,10 @@ ul a:hover {
     width: 100%;
     height: 400px;
     text-align: center;
-    margin: auto;
-    padding: 50px 50px 25px;
+    margin-top: 7vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    /*padding: 50px 50px 25px;*/
 }
 
 
@@ -231,7 +237,7 @@ ul a:hover {
 }
 
 .connect{
-    margin-top: 20px;
+    margin-top: 3vw;
     padding: 30px;
 }
 
@@ -240,6 +246,16 @@ ul a:hover {
 /*---------------------------------------------------------
   M E D I A   Q U E R I E S
 ----------------------------------------------------------- */
+@media only screen and (max-width: 730px) {
+    .intro{
+        position: absolute;
+        font-size: 3.0em;
+    }
+    .skills{
+        display:inline-block;
+    }
+}
+
 
 @media only screen and (max-width: 530px) {
 
@@ -301,11 +317,17 @@ ul a:hover {
       padding: 5px;
   }
   .imgskills, .imgskills_padding{
-      padding: 0;
+      padding: 2vw;
   }
 
   .project{
       padding:5px;
+  }
+
+  .intro{
+      position: absolute;
+      font-size: 2.5em;
+      left: 23vw;
   }
 
 }
