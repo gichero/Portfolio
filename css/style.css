@@ -129,6 +129,8 @@ ul a:hover {
     margin-top: 7vh;
     padding-left: 85px;
     padding-right: 75px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
 }
 
@@ -220,7 +222,6 @@ ul a:hover {
     margin-top: 7vh;
     padding-left: 5vw;
     padding-right: 5vw;
-    /*padding: 50px 50px 25px;*/
 }
 
 
