@@ -47,7 +47,6 @@ body {
   color: #C74A4F;
   padding-top: 20px;
   padding-left: 10px;
-
 }
 
 ul a {
@@ -97,6 +96,10 @@ ul a:hover {
     position: absolute;
     bottom: 37vh;
     left: 35vw;
+}
+
+hr{
+    color: black;
 }
 
 .greeting{
