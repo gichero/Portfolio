@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes">
+
         <title>Amos Gichero</title>
         <link rel = "icon" type = "image/png" href = "images/A.png"/>
 
@@ -15,18 +16,19 @@
 <!-- navigation bar -->
 
   <div class = "nav">
-    <ul  class="menu">
-
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About Me</a></li>
-
+    <ul class = "menu">
+        <div class = "menu">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#home">Home</a></li>
+        </div>
     </ul>
-</div>
+  </div>
 
 <!-- logo -->
 
-            <div class = "logo" >
+            <div class = "logo"  id = "home">
                 <div class = 'intro'>
                     <p >Amos Gichero</p>
                     <hr />
@@ -38,7 +40,7 @@
 
         <div class = "row about" id = "about">
             <div >
-            <h2>About Me</h2>
+            <h2 class = "about_me">About Me</h2>
             <p class = "profile">
                 I am a full-stack developer living in Atlanta, Georgia. I am a former long haul truck driver who has always been fascinated by technology and the opportunities it presents. Three years ago, I enrolled in college, where I completed an associate's degree in computer programming in December 2016, while working full time. I learned how to program in Java using J2EE platform and MySQL database to build web-based applications. </p>
                 <p class = "profile">
@@ -113,7 +115,7 @@
         <div class = "contact-wrapper" id = "contact">
 
             <div class = "contact" >
-            <h2>Contact</h2>
+            <h2 class = "contact_heading">Contact</h2>
             <p class = "profile">I look forward to hear from potential employers. I am currently looking for opportunities in Atlanta. I can be reached by email or linkedin. My GitHub account is available, where my work can be viewed. My resume is also available for download.</p>
             <div class = "contact-buttons">
                 <a href = "https://github.com/gichero" target = "_blank"><img class = "connect" src = "images/git.png"/></a>
@@ -127,12 +129,11 @@
             </div>
         </div>
 
+<!-- scripts -->
 
         <script src = "js/jquery-3.1.1.min.js"></script>
         <script src = "js/hamburger.js"></script>
-        <script src = "js/typing.js"></script>
         <script src = "js/bootstrap.min.js"></script>
-        <script src="js/typed.js"></script>
-
+        <script src= "js/scroll.js"></script>
     </body>
 </html>

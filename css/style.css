@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tamma');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
-@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Nothing+You+Could+Do|Sacramento');
-
 
 *, *:before, *:after {
   margin: 0;
@@ -24,6 +22,10 @@ body {
   font: 1em 'Roboto', sans-serif;
   color: #383838;
 }
+
+/*******************************
+		NAV BAR SECTION
+*******************************/
 
 .nav{
     position: fixed;
@@ -72,8 +74,12 @@ ul a:hover {
 }
 
 .menu li:first-child{
-    padding-right: 100;
+    padding-right: 50px;
 }
+
+/*******************************
+		LOGO SECTION
+*******************************/
 
 .logo{
     position: relative;
@@ -82,7 +88,7 @@ ul a:hover {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -100;
+    z-index: -20;
 }
 
 .intro{
@@ -98,25 +104,25 @@ ul a:hover {
     left: 35vw;
 }
 
-hr{
-    color: black;
-}
-
 .greeting{
     text-align: center;
     font-size: 0.4em;
 }
 
-.about, .projects, .contact{
-    color: #282828;
-}
+/*******************************
+		ABOUT SECTION
+*******************************/
 
 .about{
     max-width: 100%;
     margin-top: 7vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    text-align: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    text-align: left;
+}
+
+.about_me{
+    padding-bottom: 3vh;
 }
 
 .profile{
@@ -132,28 +138,21 @@ hr{
     margin-top: 7vh;
     padding-left: 85px;
     padding-right: 75px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-
 }
 
-
-/*------------------------------Projects Section-----------------------------*/
-
+/*******************************
+		PROJECTS SECTION
+*******************************/
 
 .projects_title{
     padding-bottom: 3vh;
 }
 
-/*.tic_tac_toe{
-    padding-top: 15px;
-}*/
-
 .projects{
     clear: left;
     text-align: center;
     color: black;
-    margin-top: 7vw;
+    margin-top: 9vw;
 }
 
 .projects .project{
@@ -215,18 +214,22 @@ hr{
     /*background-size: 100% 100%;*/
 }
 
-
-/*-----------------------------Contact Section------------------------------------*/
+/*******************************
+		CONTACT SECTION
+*******************************/
 
 .contact-wrapper{
     width: 100%;
     height: 400px;
     text-align: center;
-    margin-top: 7vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin-top: 10vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
+.contact_heading{
+    padding-bottom: 3vh;
+}
 
 .img{
     padding: 30px;
@@ -245,11 +248,14 @@ hr{
     padding: 30px;
 }
 
+.about, .projects, .contact{
+    color: #282828;
+}
 
+/*******************************
+		MEDIA QUERIES
+*******************************/
 
-/*---------------------------------------------------------
-  M E D I A   Q U E R I E S
------------------------------------------------------------ */
 @media only screen and (max-width: 730px) {
     .intro{
         position: absolute;
@@ -262,41 +268,6 @@ hr{
 
 
 @media only screen and (max-width: 530px) {
-
-  /*.hamburger {
-    cursor: pointer;
-    padding: 15px;
-    float:right;
-    height: 75px;
-    -webkit-animation-duration:10s;
-    -webkit-animation-iteration-count: 3;
-  }
-
-  .line {
-    border-bottom: 4px solid #C74A4F;
-    width: 35px;
-    margin-bottom: 6px;
-  }
-
-  .line:last-child {
-    margin-bottom: 0;
-  }
-
-  nav li {
-      width:100%;
-  }
-
-  .menu {
-      position: relative;
-      z-index: 100 !important;
-      left: 80px;
-      top: 50px;
-      height: 0;
-      display: none;
-      overflow: hidden;
-      transition: height 0.3s linear;
-      opacity: 0.99;
-  }*/
 
   .open{
       display: block;
